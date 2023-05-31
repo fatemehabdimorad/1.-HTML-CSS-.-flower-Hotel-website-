@@ -1,0 +1,51 @@
+/* Home Info */
+#home-info .info-img {
+  width: 50%;
+}
+#home-info .info-content {
+  width: 50%;
+}
+/* About */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+}
+#about-info .info-right img {
+  width: 70%;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+}
+.container {
+  max-width: 1100px;
+}
+/* Contact*/
+#contact-form {
+  height: 100%;
+  padding: 30px;
+}
+#contact-form h2,
+#contact-form p {
+  text-align: center;
+}
+#contact-form .container {
+  padding: 40px;
+  background: #f4f4f4;
+  max-width: 400px;
+  margin: auto;
+}
+#contact-form label {
+  display: block;
+}
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  width: 100%;
+  padding: 10px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border: #f7c08a 1px solid;
+}
